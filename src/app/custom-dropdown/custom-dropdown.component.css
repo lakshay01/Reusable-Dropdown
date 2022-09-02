@@ -1,5 +1,5 @@
 .activeOption {
-  background-color: #0004ff;
+  background-color: black;
   color: white;
 }
 
@@ -12,6 +12,7 @@ ul {
 
 li {
   color: black;
+  border: 1px solid black;
 }
 
 .caret {

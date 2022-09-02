@@ -24,5 +24,6 @@ export class CustomDropdownComponent implements OnInit {
 
   selectOption(evt: any, selectedValue: Options) {
     this.dropdown = selectedValue.value;
+    this.options.map((x) => (x.isActive = x.value === this.dropdown));
   }
 }
